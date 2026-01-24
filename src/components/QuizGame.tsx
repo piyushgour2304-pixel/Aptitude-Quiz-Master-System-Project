@@ -68,10 +68,9 @@ export function QuizGame({ questions, level, onComplete, onExit }: QuizGameProps
       setTimeLeft(30);
       setIsTimerActive(true);
     } else {
-      // Quiz complete
-      const finalAnswers = [...answers, selectedAnswer!];
-      const correctCount = finalAnswers.filter(
-        (ans, idx) => ans === questions[idx].correctAnswer
+      // Quiz complete - answers already contains all responses from handleConfirm
+      const correctCount = answers.filter(
+        (ans, idx) => questions[idx] && ans === questions[idx].correctAnswer
       ).length;
       
       const result: QuizResult = {
@@ -80,7 +79,7 @@ export function QuizGame({ questions, level, onComplete, onExit }: QuizGameProps
         percentage: Math.round((correctCount / questions.length) * 100),
         passed: (correctCount / questions.length) >= 0.5,
         correctAnswers: questions.map((q) => q.correctAnswer),
-        userAnswers: finalAnswers,
+        userAnswers: answers,
       };
       
       onComplete(result);
