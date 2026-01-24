@@ -138,15 +138,16 @@ export function QuizGame({ questions, level, onComplete, onExit }: QuizGameProps
       <div className="gaming-card p-8 mb-6">
         <h2 className="text-xl font-semibold mb-6">{question.text}</h2>
         
-        <div className="space-y-3">
+        <div className="space-y-3 relative z-20">
           {question.options.map((option, index) => (
             <button
               key={index}
+              type="button"
               onClick={() => handleSelectAnswer(index)}
               disabled={showFeedback}
-              className={getOptionClass(index)}
+              className={`${getOptionClass(index)} cursor-pointer`}
             >
-              <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3 pointer-events-none">
                 <span className="w-8 h-8 rounded-lg bg-muted flex items-center justify-center font-gaming text-sm">
                   {String.fromCharCode(65 + index)}
                 </span>
