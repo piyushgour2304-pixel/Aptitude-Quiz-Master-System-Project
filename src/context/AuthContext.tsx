@@ -1,4 +1,5 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import { User, UserProgress } from '@/types/quiz';
 
 interface AuthContextType {
@@ -71,7 +72,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
 
     const newUser: User & { password: string } = {
-      id: crypto.randomUUID(),
+      id: uuidv4(),
       username,
       email,
       password,

@@ -123,7 +123,7 @@ export default function Login() {
         </div>
 
         <div className="text-sm text-muted-foreground">
-          © 2024 Quiz Master. Train your brain daily.
+          © 2026 Quiz Master. Train your brain daily.
         </div>
       </div>
 
