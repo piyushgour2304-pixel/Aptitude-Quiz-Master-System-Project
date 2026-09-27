@@ -1,73 +1,59 @@
-# Welcome to your Lovable project
+# 🧠 Aptitude Quiz Master System
 
-## Project info
+## 📌 Project Overview
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+Aptitude Quiz Master System is an interactive aptitude quiz project developed with both a **web application and a mobile application**.
 
-## How can I edit this code?
+The system helps users practice aptitude questions, attempt quizzes, calculate scores, and track their performance.
 
-There are several ways of editing your application.
+## 🎯 Project Objective
 
-**Use Lovable**
+The main objective of this project is to provide a user-friendly platform for aptitude preparation that can be accessed through both web and mobile applications.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+## 🛠️ Technologies Used
 
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
+### Web Application
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- shadcn/ui
 
-## How can I deploy this project?
+### Mobile Application
+- Java
+- Android
+- XML
+- Android Studio
+- Firebase
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+## ✨ Key Features
 
-## Can I connect a custom domain to my Lovable project?
+- User Login and Registration
+- Home Dashboard
+- Aptitude Quiz
+- Multiple-choice Questions
+- Quiz Categories
+- Answer Submission
+- Automatic Score Calculation
+- Performance Tracking
+- Responsive Web Interface
+- Mobile Application
+- Interactive User Interface
+- Firebase Integration
 
-Yes, you can!
+## 🔄 Application Workflow
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+```text
+User Login
+      ↓
+Home Dashboard
+      ↓
+Select Quiz Category
+      ↓
+Attempt Questions
+      ↓
+Submit Answers
+      ↓
+Calculate Score
+      ↓
+View Performance
