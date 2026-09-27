@@ -41,6 +41,20 @@ The main objective of this project is to provide a user-friendly platform for ap
 - Interactive User Interface
 - Firebase Integration
 
+## 📸 Screenshots
+
+### 🏠 Home Dashboard
+
+![Quiz Master Home Dashboard](quiz-master-home.png)
+
+### 🔐 Login Page
+
+![Quiz Master Login](quiz-master-login.png)
+
+### 🧠 Logical Reasoning - Level Selection
+
+![Logical Reasoning Level Selection](quiz-master-logical-reasoning.png)
+
 ## 🔄 Application Workflow
 
 ```text
